@@ -12,10 +12,17 @@
     <form action="https://www.w3schools.com/action_page.php">
 
         <h2> input type="text" </h2>
-        <label for="Pnome">Primeiro Nome: </label><br>
-        <input type="text"><br>
-        <label for="Unome">Ultimo nome: </label><br>
-        <input type="text">
+        <fieldset>
+            <legend>Dados: </legend>
+            <label for="Pnome">Primeiro Nome: </label><br>      
+            <input type="text"><br>       
+            <label for="Unome">Ultimo nome: </label><br>       
+            <input type="text">      
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+        
 
         <h2>input type="radio"</h2>
         <input type="radio" id="HTML" name="Linguagem" value="HTML" checked>
@@ -25,17 +32,92 @@
         <input type="radio" name="Linguagem" id="JAVA" value="JAVA">
         <label for="JAVA">JAVA</label>
         <br>
-        <label for="message">Área de texto</label><br>
-        <textarea name="" id="message" cols="30" rows="10">Área de texto
-        </textarea><br>
 
-        <label for=""></label>
-        <select name="" id="">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
+        <h2>Como você vai para a FACENS?</h2>
+        <input type="checkbox" id="Tipo1" name="Tipo1" value="Van">
+        <label for="Tipo1"></label>Van <br>
+        <input type="checkbox" id="Tipo2" name="Tipo2" value="Carro">
+        <label for="Tipo2"></label>Caroo <br>
+        <input type="checkbox" id="Tipo3" name="Tipo3" value="Ônibus">
+        <label for="Tipo3"></label>Ônibus <br>
+        <input type="checkbox" id="Tipo4" name="Tipo4" value="Andando">
+        <label for="Tipo3"></label>Andando <br>
+
+        <h2>Botão</h2>
+        <input type="button" value="Aperta ai!" onclick="alert('Apertou!')">
+        <br><br>
+
+        <label for="Marca">Escolha uma marca: </label>
+        <select name="Marca" id="Marca">
+            <option value="Nike">Nike</option>
+            <option value="Adidas">Adidas</option>
+            <option value="Puma">Puma</option>
         </select>
+        <br><br>
 
+        Deixe uma mensagem aqui:
+        <br>
+        <textarea name="Mensagem" id="Mensagem" rows="10" cols="90">
+        </textarea>
+        <br><br>
+
+        <label for="Navegador">Qual navegador você usa? </label><br>
+        <input list="text" name="Navegador" id="Navegador">
+        <datalist id="Navegador">
+            <option value="Chrome">
+            <option value="Safari">
+            <option value="Opera">
+            <option value="Firefox">
+        </datalist>
+        <input type="submit">
+        
+        <h2>Escolha uma cor: </h2>
+        <input type="color">
+
+        <h2>Qual a data de hoje?</h2>
+        <input type="date">
+
+        <h2>Data e Horário</h2>
+        <input type="datetime-local">
+
+        <h2>Qual o seu email?</h2>
+        <input type="email">
+
+        <h2>Selecione um arquivo</h2>
+        <input type="file">
+
+        <h2>"Escondido"</h2>
+        <input type="hidden">
+
+        <h2>Imagem</h2>
+        <input type="image">
+            
+        <h2>mês</h2>
+        <input type="month">
+
+        <h2>Número</h2>
+        <input type="number">
+
+        <h2>Senha</h2>
+        <input type="password">
+
+        <h2>Faixa</h2>
+        <input type="range">
+
+        <h2>Redefinir</h2>
+        <input type="reset">
+
+        <h2>Busca</h2>
+        <input type="search">
+
+        <h2>Tempo</h2>
+        <input type="time">
+
+        <h2>Url</h2>
+        <input type="url">
+
+        <h2>Semana</h2>
+        <input type="week">
 
 
     </form>
