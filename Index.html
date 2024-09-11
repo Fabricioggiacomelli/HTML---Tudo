@@ -19,9 +19,7 @@
             <input type="text">      
             <br><br>
             <input type="submit" value="Enviar">
-        </fieldset>
-
-        
+        </fieldset>        
 
         <h2>Qual dessas Linguagens você tem mais curiosidade sobre? </h2>
         <input type="radio" id="HTML" name="Linguagem" value="HTML" checked>
@@ -40,10 +38,11 @@
         <input type="checkbox" id="Tipo3" name="Tipo3" value="Ônibus">
         <label for="Tipo3"></label>Ônibus <br>
         <input type="checkbox" id="Tipo4" name="Tipo4" value="Andando">
-        <label for="Tipo3"></label>Andando <br>
+        <label for="Tipo3"></label>Andando <br><br>
 
-        <h2>Botão</h2>
-        <input type="button" value="Aperta ai!" onclick="alert('Apertou!')">
+
+        <label for="Botão">Botão</label><br>
+        <input type="button" id="Botão"value="Aperta ai!" onclick="alert('Apertou!')">
         <br><br>
 
         <label for="Marca">Escolha uma marca: </label><br>
@@ -56,6 +55,7 @@
 
         Deixe uma mensagem aqui:
         <br>
+        <label for="Mensagem"></label>
         <textarea name="Mensagem" id="Mensagem" rows="10" cols="90">
         </textarea>
         <br><br>
@@ -68,57 +68,87 @@
             <option value="Opera">
             <option value="Firefox">
         </datalist>
-        <input type="submit">
-        
-        <h2>Escolha uma cor: </h2>
-        <input type="color">
+        <input type="submit"><br><br>
 
-        <h2>Qual a data de hoje?</h2>
-        <input type="date">
+        <label for="cor">Escolha uma cor:</label> 
+        <br>
+        <input type="color" id="cor" name="cor">
+        <br><br>
 
-        <h2>Data e Horário</h2>
-        <input type="datetime-local">
+        <label for="data">Qual a data de hoje?</label>
+        <br>
+        <input type="date" id="data" name="data">
+        <br><br>
 
-        <h2>Qual o seu email?</h2>
-        <input type="email">
+        <label for="datH">Data e Horário: </label>
+        <br>
+        <input type="datetime-local" id="datH" name="datH">
+        <br><br>
 
-        <h2>Selecione um arquivo</h2>
-        <input type="file">
+        <label for="mail">Qual o seu email?</label>
+        <br>
+        <input type="email" id="mail" name="mail">
+        <br><br>
 
-        <h2>"Escondido"</h2>
-        <input type="hidden">
+        <label for="arquivo">Selecione um arquivo</label>
+        <br>
+        <input type="file" id="arquivo" name="arquivo">
+        <br><br>
 
-        <h2>Imagem</h2>
-        <input type="image">
+        <label for="hidde">"Escondido"</label>
+        <br>
+        <input type="hidden" id="hidde" name="hidde">
+        <br><br>
+
+        <label for="foto">Imagem</label>
+        <br>
+        <input type="image" id="foto" name="foto">
+        <br><br>
             
-        <h2>mês</h2>
-        <input type="month">
+        <label for="mês">mês</label>
+        <br>
+        <input type="month" id="mês" name="mês">
+        <br><br>
 
-        <h2>Número</h2>
-        <input type="number">
+        <label for="num">Número</label>
+        <br>
+        <input type="number" id="num" name="num">
+        <br><br>
 
-        <h2>Senha</h2>
-        <input type="password">
+        <label for="Senha">Senha</label>
+        <br>
+        <input type="password" id="Senha" name="Senha">
+        <br><br>
 
-        <h2>Faixa</h2>
-        <input type="range">
+        <label for="Faixa">Faixa</label>
+        <br>
+        <input type="range" id="Faixa" name="Faixa">
+        <br><br>
 
-        <h2>Redefinir</h2>
-        <input type="reset">
+        <label for="Redefinir">Redefinir</label>
+        <br>
+        <input type="reset" id="Redefinir" name="Redefinir">
+        <br><br>
 
-        <h2>Busca</h2>
-        <input type="search">
+        <label for="Busca">Busca</label>
+        <br>
+        <input type="search" id="Busca" name="Busca">
+        <br><br>
 
-        <h2>Tempo</h2>
-        <input type="time">
+        <label for="Tempo">Tempo</label>
+        <br>
+        <input type="time" id="Tempo" name="Tempo">
+        <br><br>
 
-        <h2>Url</h2>
-        <input type="url">
+        <label for="Url">Url</label>
+        <br>
+        <input type="url" id="Url" name="Url">
+        <br><br>
 
-        <h2>Semana</h2>
-        <input type="week">
-
-
+        <label for="Semana">Semana</label>
+        <br>
+        <input type="week" id="Semana" name="Semana">
+        <br><br>
         
     </form>
 </body>
